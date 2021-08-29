@@ -37,7 +37,8 @@ Column Names - API ,Description ,Auth ,HTTPS ,Cors ,Link, Category
 
 ### The total number of entries in my table is 525 which can be verified from the jupiter notebook.
 
-### Not done from Points to achieve - None, I have completed all the points to achieve.
+### Not done from Points to achieve 
+None, I have completed all the points to achieve.
 
 ### Further Improvements
 - In my code I have set the rate limit to 5 while using the ratelimt library but since this library does not keep a track of all the API calls made on a global level so keeping the rate limit to maximum which is 10 tends to throw an error. So, I kept the rate limit to 5 in my case which takes a little more time to extract all the data but it does deliver the result. If there had been more time I would have tried to handle the rate limit situation more efficiently.
