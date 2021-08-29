@@ -15,6 +15,8 @@
 **Table Details**:-
 
 **Achieved points from Points to achieve**:-
+
+
 ✅ Your code should follow concept of OOPS - I have made use of funcions in my code which makes it modular and lays emphasis on code reusability.<br>
 ✅ Support for handling authentication requirements & token expiration of server - I have handled the authentication requirements & token expiration by keeping a check on the response of the API and if the token expires, then I make a request for a new token.<br>
 ✅ Support for pagination to get all data - I have added support for pagination in my code. I am calculating the total number of pages through the count that I am getting as a part of reponse from the server. Once I get the total number of pages, I am keeping a track of the current page Number in my code.<br>
