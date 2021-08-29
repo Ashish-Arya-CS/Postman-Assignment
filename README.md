@@ -12,9 +12,18 @@ We need to crawl the list of all APIs from the Public APIs github repo (https://
 - Crawled all API entries for all categories and stored it in a database
 
 ### Steps to Execute
+Assuming SQL server 2016 or above and Python 3.x version has been installed on client machine.
+Run the below commands in appropriate terminal/command prompt
 
+1) sqlcmd -S myServer\instanceName -i prescript.sql
+2) python3 code.py
 
 ### Table Details
+Database Name - TestDB
+Schema Name - dbo
+Table Name - Assignment
+Total Columns - 7
+Column Names - API ,Description ,Auth ,HTTPS ,Cors ,Link, Category
 
 ### Achieved points from Points to achieve
 
