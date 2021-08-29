@@ -15,11 +15,11 @@
 **Table Details**:-
 
 **Achieved points from Points to achieve**:-
-✅ Your code should follow concept of OOPS - I have made use of funcions in my code which makes it modular and lays emphasis on code reusability.
-✅ Support for handling authentication requirements & token expiration of server - I have handled the authentication requirements & token expiration by keeping a check on the response of the API and if the token expires, then I make a request for a new token.
-✅ Support for pagination to get all data - I have added support for pagination in my code. I am calculating the total number of pages through the count that I am getting as a part of reponse from the server. Once I get the total number of pages, I am keeping a track of the current page Number in my code.
-✅ Develop work around for rate limited server - Since the server supports only 10 requests per minute. I have handled this case by making use ratelimit library from python which keeps a track of requests made while running my code and if it exceeds the set limit then the code is put on hold for 1 minute and then again the requests are made.
-✅ Crawled all API entries for all categories and stored it in a database - I have crawled all the API entries of all the categories and stored the data in a database.
+✅ Your code should follow concept of OOPS - I have made use of funcions in my code which makes it modular and lays emphasis on code reusability.<br>
+✅ Support for handling authentication requirements & token expiration of server - I have handled the authentication requirements & token expiration by keeping a check on the response of the API and if the token expires, then I make a request for a new token.<br>
+✅ Support for pagination to get all data - I have added support for pagination in my code. I am calculating the total number of pages through the count that I am getting as a part of reponse from the server. Once I get the total number of pages, I am keeping a track of the current page Number in my code.<br>
+✅ Develop work around for rate limited server - Since the server supports only 10 requests per minute. I have handled this case by making use ratelimit library from python which keeps a track of requests made while running my code and if it exceeds the set limit then the code is put on hold for 1 minute and then again the requests are made.<br>
+✅ Crawled all API entries for all categories and stored it in a database - I have crawled all the API entries of all the categories and stored the data in a database.<br>
 
 **The total number of entries in my table is 525**
 
