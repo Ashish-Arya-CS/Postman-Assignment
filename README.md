@@ -17,7 +17,8 @@ Run the below commands in appropriate terminal/command prompt
 
 1) pip install -r /path/to/requirements.txt
 2) sqlcmd -S myServer\instanceName -i prescript.sql
-3) python3 code.py
+3) Please change the username, password and server address on line number 9,10,11 in code.py
+4) python3 code.py
 
 ### Table  and DB Details
 Database Name - TestDB
